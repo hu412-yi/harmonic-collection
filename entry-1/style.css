@@ -1,0 +1,74 @@
+
+body {
+  margin: 0;
+  background-color: #fff7eb;
+  font-family: 'Comfortaa', cursive;
+  color: #444444;
+  padding: 20px;
+  text-align: center;
+}
+
+
+.top-left {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.weather-tips-btn {
+  background-color: rgb(238, 198, 252); 
+  border: none;
+  border-radius: 20px;
+  padding: 8px 20px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.weather-tips-btn:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
+
+
+.head {
+  margin-top: 60px;
+}
+
+.page-title {
+  font-size: 40px;
+  font-weight: 700;
+  margin: 0 0 10px 0;
+}
+
+.tip {
+  font-size: 18px;
+  color: #6b4f4f;
+  margin: 0 0 20px 0;
+}
+
+
+.tips-card {
+  width: 860px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border: 1px solid #f0e7db;
+  border-radius: 12px;
+  text-align: left;
+}
+
+
+.tips-img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+
+.tips-text {
+  font-size: 15px;
+  line-height: 24px;
+  color: #444444;
+  margin: 8px 0;
+}
